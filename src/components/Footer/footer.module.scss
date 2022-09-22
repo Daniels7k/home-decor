@@ -3,13 +3,12 @@
 .footerContainer{
     padding-top: 75px;
     padding-bottom: 75px;
-    padding-left: 400px;
-    padding-right: 400px;
     border-top: 1px solid $primary-color;
     border-bottom: 1px solid $primary-color;
     background-color: #FEF1DE;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     font-weight: 600;
     font-size: 20px;
     p{
