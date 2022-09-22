@@ -14,25 +14,25 @@
         font-size: 30px;
     }
 
-    .buttons ul {
-        display: flex;
-    }
+    // .buttons ul {
+    //     display: flex;
+    // }
 
-    .buttons ul li{
-        color: $primary-color;
-        font-weight: 600;
-        font-size: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-        list-style: none;
-    }
+    // .buttons ul li{
+    //     color: $primary-color;
+    //     font-weight: 600;
+    //     font-size: 30px;
+    //     margin-left: 20px;
+    //     margin-right: 20px;
+    //     list-style: none;
+    // }
 }
 
 
-@media screen and (max-width: 850px) {
-    .navbarContainer{
-        .buttons{
-            display: none;
-        }
-    }
-}
+// @media screen and (max-width: 970px) {
+//     .navbarContainer{
+//         .buttons{
+//             display: none;
+//         }
+//     }
+// }
