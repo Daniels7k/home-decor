@@ -2,9 +2,7 @@
 
 .catalogoContainer{
     padding-top: 40px;
-    padding-bottom: 40px;
     background: $gradient-color;
-    height: 200px;
 
     h3 {
         margin: 0;
@@ -19,29 +17,38 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        padding: 100px;
+        padding: 50px;
 
         .productBox{
-            width: 360px;
-            margin-left: 100px;
-            margin-right: 100px;
+            max-width: 260px;
+            max-height: 322px;
+            width: 260px;
+            height: 322px;
+            margin-left: 50px;
+            margin-right: 50px;
             margin-bottom: 100px;
+
+            p{
+                padding: 0;
+                margin: 0;
+            }
             .productImage{
+                border: 1px solid $primary-color;
                 border-radius: 5px;
                 background-color: red;
-                max-width: 360px;
-                max-height: 322px;
-                width: 360px;
-                height: 322px;
+                max-width: 260px;
+                max-height: 222px;
+                width: 260px;
+                height: 222px;
             }
         
             .productBottom{
-                word-break: break-all;
                 text-align: center;
-                font-size: 35px;
+                font-size: 25px;
 
 
                 .productTitle{
+                
                     font-weight: 700;
                 }
 

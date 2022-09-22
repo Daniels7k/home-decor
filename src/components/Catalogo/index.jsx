@@ -13,8 +13,8 @@ const Catalogo = () => {
       <div className={style.productsRender}>
         {catalogoData.map((item, i) => (
           <div className={style.productBox} key={i} >
-            <div className={style.productImage}>
-              <img src={item.img} alt={item.nome} />
+            <div >
+              <img className={style.productImage} src={item.img} alt={item.nome} />
             </div>
             <div className={style.productBottom}>
               <p className={style.productTitle}>{item.name}</p>
