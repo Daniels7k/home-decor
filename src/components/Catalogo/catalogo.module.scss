@@ -1,0 +1,58 @@
+@import "../../styles/globalColors.scss";
+
+.catalogoContainer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: $gradient-color;
+    height: 200px;
+
+    h3 {
+        margin: 0;
+        text-align: center;
+        line-height: 70px;
+        font-weight: 400;
+        font-size: 45px;
+    }
+
+    .productsRender{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 100px;
+
+        .productBox{
+            width: 360px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 100px;
+            .productImage{
+                border-radius: 5px;
+                background-color: red;
+                max-width: 360px;
+                max-height: 322px;
+                width: 360px;
+                height: 322px;
+            }
+        
+            .productBottom{
+                word-break: break-all;
+                text-align: center;
+                font-size: 35px;
+
+
+                .productTitle{
+                    font-weight: 700;
+                }
+
+                .productPrice{
+                    font-weight: 400;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+   
+
+
+}
